@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chitkara Learning Centre | Kanav Prabhakar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">CLC</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#enroll">Enroll Now</a></li> <li><a href="#media">Campus</a></li>
+            </ul>
+        </nav>
+        
+        <div id="home" class="hero">
+            <h1>Chitkara Learning Centre</h1>
+            <p>By <strong>Kanav Prabhakar</strong></p>
+            
+            <div class="hero-image-container">
+                <img src="chitkara.jpg" alt="Chitkara Campus" class="center-img">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="courses" class="container">
+            <h2 class="section-heading">Cheap Courses for Beginners</h2>
+            <div class="course-grid">
+                <article class="card">
+                    <h3>HTML5</h3>
+                    <p class="price">₹199</p>
+                    <button class="buy-btn">Buy Now</button>
+                </article>
+                <article class="card">
+                    <h3>CSS3 Mastery</h3>
+                    <p class="price">₹249</p>
+                    <button class="buy-btn">Buy Now</button>
+                </article>
+                <article class="card">
+                    <h3>Java Core</h3>
+                    <p class="price">₹499</p>
+                    <button class="buy-btn">Buy Now</button>
+                </article>
+                <article class="card">
+                    <h3>Python AI/ML</h3>
+                    <p class="price">₹599</p>
+                    <button class="buy-btn">Buy Now</button>
+                </article>
+                <article class="card">
+                    <h3>C Language</h3>
+                    <p class="price">₹150</p>
+                    <button class="buy-btn">Buy Now</button>
+                </article>
+            </div>
+        </section>
+
+        <section id="enroll" class="enroll-section">
+            <div class="form-container">
+                <h2>Enroll Now</h2>
+                <form action="#">
+                    <div class="input-field">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="input-field">
+                        <label for="rollno">Roll No.</label>
+                        <input type="text" id="rollno" name="rollno" placeholder="Enter your Roll Number" required>
+                    </div>
+                    <div class="input-field">
+                        <label for="course">Select Course</label>
+                        <select id="course" name="course">
+                            <option value="html">HTML</option>
+                            <option value="css">CSS</option>
+                            <option value="java">Java</option>
+                            <option value="python">Python</option>
+                            <option value="c">C Language</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="submit-form-btn">Register Student</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="media" class="video-section">
+            <h2>Campus Life</h2>
+            <div class="video-container">
+                <video controls width="100%" class="center-video">
+                    <source src="chitkara.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <h2 class="thank-you-text">Thank You</h2>
+            <hr class="footer-line">
+            <p>Made by <strong>Kanav Prabhakar</strong></p>
+            <p>CSE IN AI AND ML</p>
+            <p>G3</p>
+        </div>
+    </footer>
+
+</body>
+</html>
